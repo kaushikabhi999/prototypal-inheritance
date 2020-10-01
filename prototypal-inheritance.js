@@ -26,7 +26,6 @@ console.log(p1.nameInUpper == p2.nameInUpper);
 
 // NOTE: there is problem of memory utilzation 
 
-
 // =======================================================================================
 
 function nameInUpper() {
@@ -119,14 +118,12 @@ console.log(p7.ageInBinary(), p8.ageInBinary());
 
 // =======================================================================================
 
-
 function makePerson5(name, age) {
   // const newPerson = Object.create(PersonSharedMethods);
   this.name = name;
   this.age = age;
   // return newPerson;
 }
-
 
 makePerson5.prototype = {
   nameInUpper() {
